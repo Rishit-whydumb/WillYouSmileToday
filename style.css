@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f9f9f9;
+}
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    color: #e94d58;
+    margin: 15px 0;
+}
+
+.btn-group {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    font-size: 1.2em;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button.yes-btn {
+    background: #e94d58;
+    color: white;
+}
+
+button.no-btn {
+    background: white;
+    color: #e94d58;
+    position: relative;
+}
