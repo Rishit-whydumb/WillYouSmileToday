@@ -25,6 +25,16 @@ h2 {
     margin: 15px 0;
 }
 
+.tenor-gif-embed {
+    transition: none !important; /* Prevent any animation or transition on hover */
+    transform: none !important;  /* Ensure no scaling or transformations occur */
+}
+
+.tenor-gif-embed:hover {
+    transform: none !important; /* Prevent scaling or transformation on hover */
+    transition: none !important; /* Prevent any hover effect */
+}
+
 .btn-group {
     margin-top: 50px;
     display: flex;
